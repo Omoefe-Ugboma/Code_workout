@@ -1,0 +1,40 @@
+.bg{
+background: #333;
+}
+
+.box{
+	background: #fff;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	animation-name:myanimation;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	/*animation-delay: 5s;*/
+	/*animation-direction:reverse;*/
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes myanimation{
+	0% { background-color:#fff;left: 0px; top: 0px;border-radius: 0 0 0 0;}
+	25% { background-color:red; left: 300px; top: 0px; border-radius: 50% 0 0 0;}
+	50% { background-color:green;left: 300px; top:300px;border-radius: 50% 50% 0 0;}
+	75% { background-color:blue; left: 0px; top: 300px; border-radius: 50% 50% 50% 0;}
+	100% {background-color: #fff;left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}
+}
+
+.sub{
+background: red; 
+color: #000;
+cursor: pointer;
+}
+
+#video{
+	background:#000; 
+	padding: 0;
+	border: 0;
+	border-radius: 5%;
+	width: 80%;
+	float: right;
+	top: 0;
+}

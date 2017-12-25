@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Section</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<h1>Please Send Us Your Information Here. </h1>
+<hr>
+
+<audio autoplay loop>
+  <source src="sampaudio.mp3">
+<source src="sampaudio.ogg">
+<embeds src="sampaudio.mp3">
+</audio>
+<br>
+ <form action="contact.html" method="POST">
+   <fieldset>
+     <legend>Personal Information</legend>	
+     <input type="file" name="fl" multiple="true"><br><br>
+     <input type="text" name=""   autofocus="autofocus"><br><br>
+     <input type="text" name="" placeholder="practice"><br><br>
+     <input type="text" name=""><br><br>
+     <input type="submit" class="sub" value="Submit Your Form" >
+	
+   </fieldset><br>
+
+  <form method="get" action="test.html">
+<label for="emailid">Email:</label>
+<input type="email" value="" id="emailid" name="emailaddress" maxlength="255" autocomplete="on" />
+<input type="submit" value="submit"/>
+<br><br>
+
+<label>Survey for packages offered[scale: 1-10]:</label>
+<input type="range" name="rating" min="1" max="10" />
+<input type="submit" value="submit"/>
+<br>
+<label for="stdate">Date:</label>
+<input type="date" id="stdate" name="startdate"
+min="2000-01-01"/>
+<input type="submit" value="Submit" id="btnSubmit"></input>
+<br>
+<label for="stmonth">Month:</label>
+<input type="month" id="stmonth" name="startmonth" />
+<input type="submit" value="submit"/>
+<br>
+<label>Week:</label>
+<input type="week" name="week" />
+<input type="submit" value="submit"/>
+<br>
+ <label>Time:</label>
+<input type="time" name="time" />
+<input type="submit" value="submit"/>
+<br>
+<label for="mydatetime">Date-Time:</label>
+<input type="datetime" name="mydatetime" />
+<input type="submit" value="submit"/>
+<br>
+<label>Color:</label>
+<input type="color" name="mycolor" />
+<input type="submit" value="submit"/>
+<br>
+<label> Downloading status: </label>
+<progress value="35" max="100" ></progress>
+<input type="submit" value="submit"/>
+<br>
+</form>
+
+ </form>
+</body>
+</html>
