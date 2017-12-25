@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:1200px;
+	margin:0 auto;
+	border: 1px solid black;
+	font-family: arial, verdana,sans-serif;
+}
+     #header{
+     	background: brown;
+     	width:1180px;
+     	padding:20px 10px;
+     	color:white;
+     }
+     #nav{
+      	background:orange;
+     	width:1200px;
+     	height:50px;
+     	
+     }
+     #nav ul{
+       list-style:none;
+     }
+         #nav ul li:hover{
+         	  background:#ffd280;
+         	  color:brown;
+         }
+
+          #nav a{
+         	  color:white;
+         }
+
+            #nav ul li{
+     	        float:left;
+     	        width:240px;
+     	        padding:15px 0px;
+     	        text-align: center;
+              transition:background 1s;
+              cursor: pointer;
+               }
+     #middle{
+      
+
+     }
+          #left{
+          
+          	width:800px;
+     	    height:600px;
+     	    float:left;
+          }
+          .post{
+           
+          	margin:20px;
+          	 
+          }
+              .title{
+              	background:brown;
+          	    margin:15px 10px;
+          	    margin-bottom:-5px;
+          	    color:white;
+          	    font-size:25px;
+          	    font-weight:bold;
+              }
+              .description{
+              	background:#f1f1f1;
+              	margin:15px 10px;
+              	margin-top:5px;
+          	    padding:20px;
+              }
+          #right{
+          	width:360px;
+     	    height:600px;
+     	    float:left;
+     	    padding:20px;
+          }
+          #right h2{
+           text-align: center;
+          }
+          #latest_post_group{
+          	margin:10px 0;
+          }
+          .latest_post{
+          	background:brown;
+          	padding: 10px 0px;
+          	text-align: center;
+          	color: white; 
+          	margin:10px 0;
+          }
+         #news_letter{
+
+         }
+      .news_letter_head{
+      	text-align:center;
+      	font-size:25px;
+      }
+      input[type="text"]{
+      	width:360px;
+      	height:30px;
+      }
+      input[type="submit"]{
+      	width:360px;
+      	background:orange;
+      	margin:10px 0;
+      	color:black;
+      	padding:10px 0;
+      	border:none;
+      	font-size:20px;
+      }
+      input[type="submit"]:hover{
+      	background:brown;
+      	 color:white;
+      }
+     #footer{
+     	background: brown;
+     	width:1200px;
+     	padding:20px 0;
+     	color:white;
+     	text-align:center;
+     } 
